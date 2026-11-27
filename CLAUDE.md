@@ -74,5 +74,6 @@ Research and diagrams:
 
 - **Miro** (MCP, via the `miro@miro-ai` plugin): for diagrams, such as workflows, account maps and campaign flows. Enabled in `.claude/settings.json`.
 - **Notion** (MCP, `https://mcp.notion.com/mcp`, configured in `.mcp.json`): where we publish finished docs. GitHub stays the source of truth, so write and edit here first, then publish to Notion. Ask before publishing (rule 4).
+  - Published Context OS: "Almedia GTM OS" (https://app.notion.com/p/4257431627468114902bf86b902c07b2), first published 2026-11-27. Child pages mirror `context/` and `output/` (raw research skipped); each page starts with "Source of truth: GitHub" plus the repo link and file path. Republish a page whenever its file changes.
 
 <!-- Empty for now. -->
