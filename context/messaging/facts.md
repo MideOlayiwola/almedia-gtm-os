@@ -4,7 +4,7 @@
 >
 > Every fact comes from `context/docs/research/` (file named per row) and its public URL. **Nothing has been signed off by Almedia yet:** "Approved by" stays "pending" until a named person approves it. Copy may use pending rows in drafts; review must flag them.
 
-**Last updated:** 2026-11-26 by Claude, from research files. Approval pending.
+**Last updated:** 2026-11-27 by Claude (added Candivore reward window, D90 ROAS and spend rows for the rival-rewarded-users-west spec), from research files. Approval pending.
 
 ---
 
@@ -35,6 +35,9 @@ Product one-liner (context, not copy): Almedia (Berlin, founded 2020, bootstrapp
 | Owned inventory | "we own our inventory" | voice.md (https://almedia.co/advertise/freecash/games) | pending |
 | Superbox | "1.5 to 2x higher D30 ROAS than non-rewarded channels, and 3x higher D30 retention than other rewarded channels" | case-studies.md | pending |
 | Candivore | "D30 ROAS up 65%, to 2x the D30 goal" | case-studies.md | pending |
+| Candivore reward window | "Candivore extended its reward window from 50 to 90 days" | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | pending |
+| Candivore D90 | "D90 ROAS up 70%" (measured February to April; keep that period if a date is given) | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | pending |
+| Candivore spend | "scaled ad spend 25% without losing performance" | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | pending |
 | TREEPLLA | "D30 ROAS 2x competitor benchmarks, daily spend up 550%" | case-studies.md | pending |
 | Potato Play | "scaled from 5 to 15 markets with 26% higher D30 ARPU" | case-studies.md | pending |
 | Gryphon Games (Link) | "18.6% higher total revenue per user with Link" | case-studies.md | pending |
