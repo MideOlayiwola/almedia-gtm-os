@@ -1,6 +1,6 @@
 # Workflow spec: Rival rewarded users (West)
 
-**Status:** STRUCTURE-APPROVED 2026-11-27 · E1 approved · E2, E3, DM1, DM2 pending
+**Status:** COPY-APPROVED 2026-11-27
 
 Signal matrix W1, segment S1, signal #1 (`context/icp/signal-matrix.md`). Strategy idea #1 (`output/campaigns/campaign-strategy.md`). System steps refer to `context/docs/gtm-system.md`. Approved by Mide Olayiwola: sections 1 to 4 (with Germany added) and the angle matrix, 2026-11-27.
 
@@ -187,7 +187,7 @@ Spacing is a v1 default, to change after the first 4 weeks' data ([GTM] step 11)
 
 ## Next step
 
-`/campaign-copy` continues on this file: Email 2 next.
+Copy approved. Next: `/clay-build-plan` or `/campaign-contract` to build the Clay table, then sequencer export (`/campaign-copy` Phase 3) before launch.
 
 ---
 
@@ -283,3 +283,95 @@ Value line: locked Variant A from `facts.md`, kept by decision of Mide Olayiwola
 > Growth Lead, Almedia
 
 79 words. Longest route (cell 8 plus multi-network line): about 114 words including signature, under the 120 ceiling.
+
+### Email 2 (approved 2026-11-27 by Mide Olayiwola)
+
+Same thread, subject `Re:` plus the Email 1 subject. Routed by persona (R2) only; static within a persona. Run as one sequencer campaign per persona.
+
+**Champion (day 4)**
+```
+{{first_name}},
+
+{One more result, next to the Candivore one:|A second result to sit next to Candivore's:|Adding one more result to the Candivore one:}
+
+Superbox saw 1.5 to 2x higher D30 ROAS than non-rewarded channels, and 3x higher D30 retention than other rewarded channels.
+
+{Is D30 retention one of the numbers you compare rewarded partners on for {{case_game}}?|Do you line up D30 retention across rewarded partners for {{case_game}}?|Are you comparing D30 retention across your rewarded partners on {{case_game}}?}
+
+{Best,|Cheers,}
+Mide
+```
+
+**Economic buyer (day 13)**
+```
+{{first_name}},
+
+{One more result, next to TREEPLLA's:|A second result to sit next to the TREEPLLA one:|Adding one more result to the TREEPLLA one:}
+
+Superbox saw 1.5 to 2x higher D30 ROAS than non-rewarded channels, and 3x higher D30 retention than other rewarded channels.
+
+{With rewarded already in the mix at {{company_name}}, that second number is probably the one your UA team watches.|Since {{company_name}} already runs rewarded, my guess is the second number matters most to your UA team.}
+
+{Should I send the details to whoever runs UA on your team?|Worth me passing this to the person who owns UA on your team?|Want me to send this over to whoever leads UA on your team?}
+
+{Best,|Cheers,}
+Mide
+```
+
+### Email 3 (approved 2026-11-27 by Mide Olayiwola)
+
+Same thread. Routed by persona only.
+
+**Champion (day 10)**
+```
+{{first_name}},
+
+{Last note from me on this.|I'll leave it here after this one.|Keeping this last one short.}
+
+Candivore also scaled ad spend 25% without losing performance.
+
+{If a test like that sits with someone else at {{company_name}}, who should I talk to?|If someone else at {{company_name}} owns a test like that, who would it be?|Is a test like that yours to run, or should I talk to someone else at {{company_name}}?}
+
+{Best,|Cheers,}
+Mide
+```
+
+**Economic buyer (day 17)**
+```
+{{first_name}},
+
+{Last note from me.|I'll leave it here after this one.|Keeping this last one short.}
+
+Potato Play, a studio we worked with, scaled from 5 to 15 markets with 26% higher D30 ARPU.
+
+{Are more markets on the plan at {{company_name}}, or should I close the loop here?|Is market expansion on the plan at {{company_name}}, or should I close the loop?|Are new markets coming up at {{company_name}}, or should I leave it here?}
+
+{Best,|Cheers,}
+Mide
+```
+
+### LinkedIn (approved 2026-11-27 by Mide Olayiwola)
+
+Connection request: empty, no note (champion day 2, economic buyer day 11). DMs only if accepted. No greeting, signature or PS. Sent by the rep from HubSpot tasks.
+
+**DM 1 (`dm1`)**, one per cell (champion day 7, economic buyer day 14)
+- + Cell 1 (short x champion): {{first_name}}, any plans to read rewarded cohorts on {{case_game}} past {{reported_window}}?
+- + Cell 2 (d30 x champion): {{first_name}}, are you reading rewarded cohorts on {{case_game}} past D30, or is D30 the main window?
+- + Cell 3 (long x champion): {{first_name}}, do you set the reward window to match the window you judge on for {{case_game}}?
+- + Cell 4 (not_stated x champion): {{first_name}}, is D30 or D90 the window you judge rewarded on for {{case_game}}?
+- + Cell 5 (short x economic_buyer): {{first_name}}, is rewarded spend on {{case_game}} set to grow, or holding steady for now?
+- + Cell 6 (d30 x economic_buyer): {{first_name}}, any plans to grow rewarded spend on {{case_game}} beyond where it is today?
+- + Cell 7 (long x economic_buyer): {{first_name}}, is the plan to put more budget behind rewarded on {{case_game}}, or keep it where it is?
+- + Cell 8 (not_stated x economic_buyer): {{first_name}}, are you adding rewarded partners at {{company_name}}, or sticking with the current ones?
+
+**DM 2**, static per persona (champion day 12, economic buyer day 19)
+- Champion: `{Asking because|Only asking since|Reason I ask:} Candivore extended its reward window from 50 to 90 days and ended up with D90 ROAS up 70%. {Happy to share more if it's useful.|Can share more if helpful.|Glad to send details if useful.}`
+- Economic buyer: `{Asking because|Only asking since|Reason I ask:} TREEPLLA scaled daily spend by 550% while maintaining strong ROAS with us. {Happy to share more if it's useful.|Can share more if helpful.|Glad to send details if useful.}`
+
+Champion DM 2 reuses the Candivore D90 fact from Email 1 in different words on purpose: many LinkedIn accepters never opened the email.
+
+### Review record
+
+Persona review (UA Manager, CEO) and human test run on the full sequence 2026-11-27: passed. QA: insult, nexus, facts traced to `facts.md`, spintax same-meaning only, no em dashes or "!", subject unchanged in thread, no repeated lines across emails. Word counts: E1 79 (cell 1 sample, longest route about 114), E2 champion 45, E2 economic buyer 58, E3 champion 38, E3 economic buyer 40, DM 1 max 19, DM 2 max 27.
+
+Before launch: final manual read against `knowledge-base/playbooks/copy-iron-laws.md`; HubSpot exclusion check (S6) is still manual.
