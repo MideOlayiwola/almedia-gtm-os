@@ -1,6 +1,6 @@
 # Workflow spec: Rival rewarded users (West)
 
-**Status:** STRUCTURE-APPROVED 2026-11-27 · copy pending
+**Status:** STRUCTURE-APPROVED 2026-11-27 · E1 approved · E2, E3, DM1, DM2 pending
 
 Signal matrix W1, segment S1, signal #1 (`context/icp/signal-matrix.md`). Strategy idea #1 (`output/campaigns/campaign-strategy.md`). System steps refer to `context/docs/gtm-system.md`. Approved by Mide Olayiwola: sections 1 to 4 (with Germany added) and the angle matrix, 2026-11-27.
 
@@ -130,7 +130,7 @@ Proof used (all Almedia-published, all pending approval in [FA]): Candivore rewa
 | `{{case_game}}` | Case-study page heading: game title | All 8 |
 | `{{reported_window}}` | Formula from R1 cluster: `short` = "D7", `d30` = "D30", `long` = "D60+" (label, never the raw number) | Cells 1, 2, 3, 5, 6, 7. Never 4 or 8 |
 | `{{is_multi_network}}` | C3: `true` when distinct networks per domain is 2 or more | All 8 (line used only when `true`) |
-| `{{sender_name}}`, `{{sender_title}}` | `facts.md` sender identity: **unknown**, must be filled before send | All 8 |
+| `{{sender_name}}`, `{{sender_title}}` | `facts.md` sender identity: Mide Olayiwola, Growth Lead, Almedia | All 8 |
 
 Internal fields (routing and rep reference, never in copy): `window_cluster` (R1), `persona` (R2), `store_market` (S4: us / de / both), `case_study_url`, `case_study_date`, `email_status`.
 
@@ -143,16 +143,19 @@ Internal fields (routing and rep reference, never in copy): `window_cluster` (R1
 | Day | Champion | Economic buyer (starts day 8, or day 1 if no champion) |
 |---|---|---|
 | 1 | Email 1: cell angle plus one proof point | |
-| 2 | LinkedIn connect | |
+| 2 | LinkedIn connect (empty, no note) | |
 | 4 | Email 2: second proof (Superbox head-to-head backup) | |
-| 7 | LinkedIn message | |
+| 7 | LinkedIn DM 1 | |
 | 8 | | Email 1: cell angle (cells 5 to 8) |
 | 10 | Email 3: short close | |
-| 11 | | LinkedIn connect |
+| 11 | | LinkedIn connect (empty, no note) |
+| 12 | LinkedIn DM 2 | |
 | 13 | | Email 2 |
+| 14 | | LinkedIn DM 1 |
 | 17 | | Email 3: short close |
+| 19 | | LinkedIn DM 2 |
 
-Spacing is a v1 default, to change after the first 4 weeks' data ([GTM] step 11).
+Spacing is a v1 default, to change after the first 4 weeks' data ([GTM] step 11). DM schedule updated 2026-11-27 (2 DMs per persona), approved by Mide Olayiwola. LinkedIn DMs only go out if the connection is accepted.
 
 **Email status routing ([GTM] step 7):** valid = email plus LinkedIn; catch-all = LinkedIn first, email only from a low-volume catch-all inbox; invalid or not found = LinkedIn only; neither = drop.
 
@@ -178,10 +181,105 @@ Spacing is a v1 default, to change after the first 4 weeks' data ([GTM] step 11)
 
 ## Blockers before send (not before copy drafting)
 
-- Candivore window, D90 +70% and spend +25% not yet in `facts.md` (blocks copy facts gate for cells 1 to 4 and 7)
-- All `facts.md` claims pending approval; sender identity unknown
+- Resolved 2026-11-27: Candivore window, D90 and spend rows added to `facts.md`
+- Resolved 2026-11-27: `facts.md` claims approved and sender set (Mide Olayiwola, Growth Lead)
 - HubSpot not authorized: exclusion check S6 is manual
 
 ## Next step
 
-`/campaign-copy` on this file.
+`/campaign-copy` continues on this file: Email 2 next.
+
+---
+
+## Copy
+
+Written with `/campaign-copy` from the approved angles above. Facts from `context/messaging/facts.md` only (approved by Mide Olayiwola, 2026-11-27). Routing is exhaustive (R1 has 4 clusters including `not_stated`, R2 has 2 personas), so no fallback lines.
+
+### Email 1 (approved 2026-11-27 by Mide Olayiwola)
+
+Day 1 for the champion (cells 1 to 4), day 8 for the economic buyer (cells 5 to 8). New thread.
+
+**Subject**
+- Champion: `{{{case_game}} payback window|{{case_game}} at d90|reward window for {{case_game}}}`
+- Economic buyer: `{scaling {{case_game}}|{{case_game}} growth|rewarded spend at {{company_name}}}`
+
+**Shape**
+```
+{{first_name}},
+
+{{e1l1}}
+
+{{e1l2}}
+
+Almedia is a rewarded user acquisition platform: advertisers pay when a Freecash user takes a real action, like playing for a set time or making a purchase.
+
+{{e1_proof}}
+
+{{e1_multi}}
+
+{{e1_cta}}
+
+{Best,|Cheers,}
+Mide Olayiwola
+Growth Lead, Almedia
+```
+
+Value line: locked Variant A from `facts.md`, kept by decision of Mide Olayiwola (2026-11-27): do not assume every prospect knows Almedia.
+
+**Line 1 (`e1l1`)**
+- + Cell 1 (short x champion): Read {{rival_network}}'s case study on {{case_game}}; it reports {{reported_window}} results.
+- + Cell 2 (d30 x champion): Read {{rival_network}}'s case study on {{case_game}}; it tracks results to {{reported_window}}.
+- + Cell 3 (long x champion): Read {{rival_network}}'s case study on {{case_game}}; it already reports long-window results.
+- + Cell 4 (not_stated x champion): Read through the {{rival_network}} case study on {{case_game}}.
+- + Cell 5 (short x economic_buyer): Read {{rival_network}}'s case study on {{case_game}}.
+- + Cell 6 (d30 x economic_buyer): Read the {{case_game}} case study {{rival_network}} published.
+- + Cell 7 (long x economic_buyer): Read {{rival_network}}'s write-up on {{case_game}}, with results well past D30.
+- + Cell 8 (not_stated x economic_buyer): Read the {{rival_network}} case study on {{case_game}}.
+
+**Line 2 (`e1l2`)**
+- + Cell 1: Sounds like D7 is working for you. How does that same spend look by D90?
+- + Cell 2: D30 is probably the bar you hold rewarded partners to. What happens to those cohorts between D30 and D90?
+- + Cell 3: Which probably means you judge rewarded partners on long cohorts already. How long does the reward window run on your side?
+- + Cell 4: What window do you judge rewarded on for that game: D30, D90, or longer?
+- + Cell 5: So rewarded is probably already in the plan at {{company_name}}. My guess is the open question is how long that spend keeps paying back past {{reported_window}}.
+- + Cell 6: My guess is rewarded clears your {{reported_window}} bar today, so the question is how far spend can grow from there.
+- + Cell 7: So your team probably judges rewarded on long windows already. The question then is likely how much more budget you can put behind it.
+- + Cell 8: So rewarded is probably part of how {{company_name}} grows. Could be off, but I'd guess the question is which partners can take more of that spend.
+
+**Proof (`e1_proof`)**
+- + Cells 1, 3, 4: Candivore extended its reward window from 50 to 90 days and ended up with D90 ROAS up 70%.
+- + Cell 2: Candivore's D30 ROAS was up 65%, to 2x the D30 goal. With its reward window extended from 50 to 90 days, D90 ROAS was up 70% too.
+- + Cell 5: TREEPLLA scaled daily spend by 550% while maintaining strong ROAS.
+- + Cell 6: TREEPLLA hit D30 ROAS 2x competitor benchmarks, with daily spend up 550%.
+- + Cell 7: TREEPLLA scaled daily spend by 550% while maintaining strong ROAS, and Candivore scaled ad spend 25% without losing performance.
+- + Cell 8: TREEPLLA's CEO, San Heo: "We came into this partnership with aggressive growth goals, and Freecash helped us blow past every one of them."
+
+**Multi-network line (`e1_multi`)**, only when `{{is_multi_network}}` = true; otherwise empty
+- + Champion cells: You already run more than one rewarded partner, so one more in the comparison shouldn't be a big lift.
+- + Economic-buyer cells: You already spread rewarded spend across more than one partner, so testing another is familiar ground.
+
+**CTA (`e1_cta`)**
+- Champion: `{Worth running one cohort with us and reading it at D90?|Open to testing one cohort with us and checking it at D90?|Would one test cohort, read at D90, be useful?}`
+- Economic buyer: `{Is rewarded spend going up at {{company_name}}?|Is more rewarded spend planned at {{company_name}}?|Are you planning to grow rewarded spend?}`
+
+**Sample as received (cell 1; "Maya", "Merge Valley" and Mistplay are a made-up example, not real data)**
+
+> Subject: Merge Valley payback window
+>
+> Maya,
+>
+> Read Mistplay's case study on Merge Valley; it reports D7 results.
+>
+> Sounds like D7 is working for you. How does that same spend look by D90?
+>
+> Almedia is a rewarded user acquisition platform: advertisers pay when a Freecash user takes a real action, like playing for a set time or making a purchase.
+>
+> Candivore extended its reward window from 50 to 90 days and ended up with D90 ROAS up 70%.
+>
+> Worth running one cohort with us and reading it at D90?
+>
+> Best,
+> Mide Olayiwola
+> Growth Lead, Almedia
+
+79 words. Longest route (cell 8 plus multi-network line): about 114 words including signature, under the 120 ceiling.

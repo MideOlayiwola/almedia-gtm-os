@@ -2,9 +2,9 @@
 
 > The ONLY source of names, numbers and claims for prospect-facing copy (`/campaign-copy` FACTS GATE). Anything not listed here renders as `{{placeholder}}`, never from memory and never invented.
 >
-> Every fact comes from `context/docs/research/` (file named per row) and its public URL. **Nothing has been signed off by Almedia yet:** "Approved by" stays "pending" until a named person approves it. Copy may use pending rows in drafts; review must flag them.
+> Every fact comes from `context/docs/research/` (file named per row) and its public URL. **Approved by Mide Olayiwola on 2026-11-27** (all claim and social-proof rows below). New rows start as "pending" until a named person approves them; review must flag any pending row used in copy.
 
-**Last updated:** 2026-11-27 by Claude (added Candivore reward window, D90 ROAS and spend rows for the rival-rewarded-users-west spec), from research files. Approval pending.
+**Last updated:** 2026-11-27 by Claude (added Candivore reward window, D90 ROAS and spend rows for the rival-rewarded-users-west spec), from research files. Approved by Mide Olayiwola, 2026-11-27.
 
 ---
 
@@ -12,9 +12,9 @@
 
 | Field | Value |
 |---|---|
-| Sender name(s) | unknown (needs input) |
-| Title | unknown (needs input) |
-| Signature format | unknown (needs input) |
+| Sender name(s) | Mide Olayiwola (set by Mide Olayiwola, 2026-11-27) |
+| Title | Growth Lead, Almedia |
+| Signature format | Mide Olayiwola / Growth Lead, Almedia (two lines; email only, LinkedIn DMs use first name only) |
 | Sender persona notes | unknown (needs input) |
 
 ## What we do (locked value prop)
@@ -28,21 +28,23 @@ Product one-liner (context, not copy): Almedia (Berlin, founded 2020, bootstrapp
 
 | Claim | Approved phrasing | Source | Approved by / date |
 |---|---|---|---|
-| Reach | "95M+ Freecash users" | company.md (https://almedia.co/about) | pending |
-| Payouts | "$500M+ paid out to Freecash users" (as of Oct 2026) | company.md (https://almedia.co/about; ppc.land 2026-10-15) | pending |
-| Growth recognition | "FT1000: Europe's #3 fastest-growing company, #1 in Advertising" | company.md (https://almedia.co/about) | pending |
-| iOS ranking | "#1 rewarded platform in global iOS gaming, AppsFlyer Performance Index 2026" | company.md (https://almedia.co/resource-hub) | pending; AppsFlyer source not read |
-| Owned inventory | "we own our inventory" | voice.md (https://almedia.co/advertise/freecash/games) | pending |
-| Superbox | "1.5 to 2x higher D30 ROAS than non-rewarded channels, and 3x higher D30 retention than other rewarded channels" | case-studies.md | pending |
-| Candivore | "D30 ROAS up 65%, to 2x the D30 goal" | case-studies.md | pending |
-| Candivore reward window | "Candivore extended its reward window from 50 to 90 days" | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | pending |
-| Candivore D90 | "D90 ROAS up 70%" (measured February to April; keep that period if a date is given) | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | pending |
-| Candivore spend | "scaled ad spend 25% without losing performance" | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | pending |
-| TREEPLLA | "D30 ROAS 2x competitor benchmarks, daily spend up 550%" | case-studies.md | pending |
-| Potato Play | "scaled from 5 to 15 markets with 26% higher D30 ARPU" | case-studies.md | pending |
-| Gryphon Games (Link) | "18.6% higher total revenue per user with Link" | case-studies.md | pending |
-| Ovivo (Link) | "an estimated 16.8% LTV uplift across 24 titles" (always say "estimated") | case-studies.md | pending |
-| Link conversion | "15-20% projected conversion" (always say "projected") | company.md (https://almedia.co/monetize/link/games) | pending |
+| Reach | "95M+ Freecash users" | company.md (https://almedia.co/about) | Mide Olayiwola, 2026-11-27 |
+| Payouts | "$500M+ paid out to Freecash users" (as of Oct 2026) | company.md (https://almedia.co/about; ppc.land 2026-10-15) | Mide Olayiwola, 2026-11-27 |
+| Growth recognition | "FT1000: Europe's #3 fastest-growing company, #1 in Advertising" | company.md (https://almedia.co/about) | Mide Olayiwola, 2026-11-27 |
+| iOS ranking | "#1 rewarded platform in global iOS gaming, AppsFlyer Performance Index 2026" | company.md (https://almedia.co/resource-hub) | Mide Olayiwola, 2026-11-27 (AppsFlyer source still not read) |
+| Owned inventory | "we own our inventory" | voice.md (https://almedia.co/advertise/freecash/games) | Mide Olayiwola, 2026-11-27 |
+| Superbox | "1.5 to 2x higher D30 ROAS than non-rewarded channels, and 3x higher D30 retention than other rewarded channels" | case-studies.md | Mide Olayiwola, 2026-11-27 |
+| Candivore | "D30 ROAS up 65%, to 2x the D30 goal" | case-studies.md | Mide Olayiwola, 2026-11-27 |
+| Candivore reward window | "Candivore extended its reward window from 50 to 90 days" | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | Mide Olayiwola, 2026-11-27 |
+| Candivore D90 | "D90 ROAS up 70%" (measured February to April; keep that period if a date is given) | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | Mide Olayiwola, 2026-11-27 |
+| Candivore spend | "scaled ad spend 25% without losing performance" | case-studies.md, customers.md (https://almedia.co/resource-hub/case-studies/candivore-match-masters) | Mide Olayiwola, 2026-11-27 |
+| TREEPLLA | "D30 ROAS 2x competitor benchmarks, daily spend up 550%" | case-studies.md | Mide Olayiwola, 2026-11-27 |
+| TREEPLLA spend with ROAS | "scaled daily spend by 550% while maintaining strong ROAS" | customers.md (https://almedia.co/resource-hub/case-studies/treeplla-office-cat) | Mide Olayiwola, 2026-11-27 |
+| TREEPLLA CEO quote | "We came into this partnership with aggressive growth goals, and Freecash helped us blow past every one of them." San Heo, CEO, TREEPLLA (quote verbatim, never paraphrase) | customers.md (https://almedia.co/resource-hub/case-studies/treeplla-office-cat) | Mide Olayiwola, 2026-11-27 |
+| Potato Play | "scaled from 5 to 15 markets with 26% higher D30 ARPU" | case-studies.md | Mide Olayiwola, 2026-11-27 |
+| Gryphon Games (Link) | "18.6% higher total revenue per user with Link" | case-studies.md | Mide Olayiwola, 2026-11-27 |
+| Ovivo (Link) | "an estimated 16.8% LTV uplift across 24 titles" (always say "estimated") | case-studies.md | Mide Olayiwola, 2026-11-27 |
+| Link conversion | "15-20% projected conversion" (always say "projected") | company.md (https://almedia.co/monetize/link/games) | Mide Olayiwola, 2026-11-27 |
 
 **Formatting rules for proof:**
 - Write "Freecash", "Almedia", "Link", "MaxROAS" exactly; never domains.
@@ -61,16 +63,16 @@ Product one-liner (context, not copy): Almedia (Berlin, founded 2020, bootstrapp
 
 ## Authorized social-proof names
 
-Names below are publicly published by Almedia with results. Internal approval for outbound use is still pending.
+Names below are publicly published by Almedia with results. Approved for outbound use by Mide Olayiwola, 2026-11-27.
 
 | Name | What it proves | Matches | Caveat |
 |---|---|---|---|
-| Superbox | D30 ROAS and retention vs other channels | Casual mobile game, first rewarded test | Pending approval |
-| Candivore | Long-window ROAS (D7 to D90), US scale | Mobile game, iOS and Android | Pending approval |
-| TREEPLLA | Reactivation, spend scale, launch in DE/GB/CA/FR | Mobile game | Pending approval |
-| Potato Play | Multi-market scale | Mobile game | Pending approval |
-| Gryphon Games | Link revenue per user | Game publisher, Link | Pending approval |
-| Ovivo | Link LTV across a catalogue | Game publisher, 24 titles | Pending approval; result is "estimated" |
+| Superbox | D30 ROAS and retention vs other channels | Casual mobile game, first rewarded test | Approved: Mide Olayiwola, 2026-11-27 |
+| Candivore | Long-window ROAS (D7 to D90), US scale | Mobile game, iOS and Android | Approved: Mide Olayiwola, 2026-11-27 |
+| TREEPLLA | Reactivation, spend scale, launch in DE/GB/CA/FR | Mobile game | Approved: Mide Olayiwola, 2026-11-27 |
+| Potato Play | Multi-market scale | Mobile game | Approved: Mide Olayiwola, 2026-11-27 |
+| Gryphon Games | Link revenue per user | Game publisher, Link | Approved: Mide Olayiwola, 2026-11-27 |
+| Ovivo | Link LTV across a catalogue | Game publisher, 24 titles | Approved: Mide Olayiwola, 2026-11-27; result is "estimated" |
 
 Not authorized (name only, no published result or source is sponsored or a snippet): Playtika, Papaya, CrazyLabs, SuperPlay, Plarium, Actionfit, Summit panel companies. (customers.md, leadership-posts.md)
 
